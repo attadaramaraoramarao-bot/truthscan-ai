@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 
+export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
+
 // Preserved negation tokens and stopwords for isomorphic NLP
 const PRESERVED_TOKENS = new Set([
   "not", "no", "never", "none", "neither", "nor", "cannot", "without",
